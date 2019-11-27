@@ -1,0 +1,7 @@
+POST http://localhost:3000/limit
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "uuid": "a0b10d1c-a7db-5d57-bd87-345932989dbb"
+}

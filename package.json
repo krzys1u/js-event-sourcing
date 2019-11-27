@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "supertest": "^4.0.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "test": "tape test/*.js | tap-spec"
+  },
+  "dependencies": {
+    "eventstore": "^1.15.2",
+    "express": "^4.17.1",
+    "lodash.clonedeep": "^4.5.0",
+    "mongodb": "^3.3.4"
+  }
+}
